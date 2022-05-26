@@ -3,7 +3,7 @@ export const oidcSettings = {
   clientId: '1',
   redirectUri: 'http://localhost:3000/oidc-callback',
   responseType: 'code',
-  scope: 'openid email',
+  scope: 'openid',
   automaticSilentRenew: true,
   silentRedirectUri: 'http://localhost:3000/silent-renew-oidc.html'
 }
