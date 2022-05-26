@@ -1,0 +1,18 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Start Development Server",
+            "type": "shell",
+            "command": "npm run dev",
+            "dependsOn": [
+                "Instal Dependancies"
+            ]
+        },
+        {
+            "label": "Instal Dependancies",
+            "type": "shell",
+            "command": "npm install",
+        }
+    ]
+}
